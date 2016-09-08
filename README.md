@@ -27,6 +27,7 @@
     {
       "firstName": "Juan",
       "lastName": "dela Cruz",
+      "birthDate": "06/12/1898",
       "skills": [
         { "name": "HTML", "rating": 10 },
         { "name": "JavaScript", "rating": 9 }

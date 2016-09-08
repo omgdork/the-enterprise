@@ -9,6 +9,7 @@ var routes = function () {
       ex: {
         "firstName": "Juan",
         "lastName": "dela Cruz",
+        "birthDate": "06/12/1898",
         "skills": [
           {
             "name": "JavaScript",

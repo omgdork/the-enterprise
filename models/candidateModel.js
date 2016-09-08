@@ -21,6 +21,10 @@ var candidateModel = new Schema({
     type: String,
     required: true
   },
+  birthDate: {
+    type: Date,
+    required: true
+  },
   skills: [candidateSkillModel]
 });
 
