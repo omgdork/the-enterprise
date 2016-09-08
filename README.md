@@ -15,7 +15,7 @@
 3. Run `gulp` to start the server. Go to http://localhost:8000. (8000 is the default port. You can change this in gulpfile.js.)
 
 ### How to Use
-1. Install Postman on Chrome to test the API.
+1. Install [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en) on Chrome to test the API.
 
 2. Adding candidates
   2.1 Select POST and enter `http://localhost:8000/api/candidates` in the request URL.
@@ -23,6 +23,7 @@
   2.2 Add Content-Type as key and application/json as value in the headers.
   
   2.3 Add the candidate in the following format:
+    ```
     {
       "firstName": "Juan",
       "lastName": "dela Cruz",
@@ -31,6 +32,7 @@
         { "name": "JavaScript", "rating": 9 }
       ]
     }
+    ```
     
   2.4 Hit Send.
   
