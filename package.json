@@ -1,0 +1,18 @@
+{
+  "name": "enterprise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.6.0"
+  }
+}
